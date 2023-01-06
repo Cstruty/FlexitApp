@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-stats:17.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d4afe6b211f029159f658c8fa52f1ef/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1d4afe6b211f029159f658c8fa52f1ef/transformed/jetified-play-services-stats-17.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/transforms-3/7c37298c1963d26687def8d578ae3af7/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/transforms-3/7c37298c1963d26687def8d578ae3af7/transformed/jetified-play-services-stats-17.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/modules-2/files-2.1/com.google.android.gms/play-services-stats/17.0.2/c0d58b8efa926b2c607984c54fb3d274490badd1/play-services-stats-17.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

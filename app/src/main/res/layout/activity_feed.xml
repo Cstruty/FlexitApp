@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".FeedActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:background="@drawable/instagradient">
+
+
+      <TextView
+          android:id="@+id/textGrid"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:text="FlexiT"
+          android:textColor="@android:color/white"
+          android:textSize="40dp" />
+
+      <ImageView
+          android:id="@+id/button_viewprofile"
+          android:layout_width="320dp"
+          android:layout_height="90dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="-135dp"
+          android:layout_marginTop="87dp"
+          app:srcCompat="@drawable/avatar" />
+
+      <ImageView
+          android:id="@+id/logout_view"
+          android:layout_width="118dp"
+          android:layout_height="67dp"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_marginTop="79dp"
+          android:layout_marginEnd="5dp"
+          app:srcCompat="@drawable/logoutbutton" />
+
+      <ImageView
+          android:id="@+id/setting_view"
+          android:layout_width="63dp"
+          android:layout_height="58dp"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="162dp"
+          android:layout_marginTop="88dp"
+          app:srcCompat="@mipmap/ic_setting" />
+
+   </RelativeLayout>
+
+   <GridLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="8"
+       android:alignmentMode="alignMargins"
+       android:columnCount="2"
+       android:columnOrderPreserved="false"
+       android:padding="14dp"
+       android:rowCount="3">
+
+      <!-- Row 1 -->
+      <!-- Column 1 -->
+
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_rowWeight="1"
+          android:layout_columnWeight="1"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginBottom="16dp"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp">
+
+         <Button
+             android:id="@+id/button_music"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:background="@drawable/music" />
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal|center_vertical"
+             android:layout_margin="16dp"
+             android:orientation="vertical">
+
+
+         </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+      <!-- Column 2 -->
+
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_rowWeight="1"
+          android:layout_columnWeight="1"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginBottom="16dp"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal|center_vertical"
+             android:layout_margin="16dp"
+             android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/schedule" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+         </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+      <!-- Row 2 -->
+      <!-- Column 1 -->
+
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_rowWeight="1"
+          android:layout_columnWeight="1"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginBottom="16dp"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal|center_vertical"
+             android:layout_margin="16dp"
+             android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_workout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/workouts" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+         </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+
+      <!-- Column 2 -->
+
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_rowWeight="1"
+          android:layout_columnWeight="1"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginBottom="16dp"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal|center_vertical"
+             android:layout_margin="16dp"
+             android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/android_timer_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+         </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+      <!-- Row 3 -->
+
+      <!-- Column 1 -->
+      <androidx.cardview.widget.CardView
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_rowWeight="1"
+          android:layout_columnWeight="1"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginBottom="16dp"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal|center_vertical"
+             android:layout_margin="16dp"
+             android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_BMI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bmi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+         </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+      <!-- Column 2 -->
+      <androidx.cardview.widget.CardView
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_rowWeight="1"
+          android:layout_columnWeight="1"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginBottom="16dp"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal|center_vertical"
+             android:layout_margin="16dp"
+             android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nutrition_repo_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/questions" />
+         </LinearLayout>
+      </androidx.cardview.widget.CardView>
+
+   </GridLayout>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".SettingActivity"
+    android:orientation="vertical">
+    <LinearLayout
+    android:id="@+id/parent_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="421dp"
+            android:layout_height="126dp"
+            app:srcCompat="@mipmap/ic_setting" />
+
+
+
+        <EditText
+            android:id="@+id/text_fName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="First Name"
+            android:background="@drawable/greenbutton"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/text_lName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Last Name"
+            android:padding="10dp"
+            android:background="@drawable/greenbutton"/>
+
+        <EditText
+            android:id="@+id/text_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Age"
+            android:padding="10dp"
+            android:background="@drawable/greenbutton"/>
+
+        <EditText
+            android:id="@+id/text_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Height (in)"
+            android:padding="10dp"
+            android:background="@drawable/greenbutton"/>
+
+        <EditText
+            android:id="@+id/text_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Weight"
+            android:padding="10dp"
+            android:background="@drawable/greenbutton"/>
+
+        <EditText
+            android:id="@+id/text_description"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_margin="5dp"
+            android:hint="Enter your fitness goal"
+            android:padding="10dp"
+            android:background="@drawable/greenbutton"/>
+
+        <Button
+            android:id="@+id/updateinfo"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/redbutton"
+            android:elevation="4dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Update"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/setting_del"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/redbutton"
+            android:elevation="4dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Delete Account"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

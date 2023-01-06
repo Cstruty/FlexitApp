@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Flexit.iml" filepath="$PROJECT_DIR$/.idea/modules/Flexit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Flexit.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Flexit.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Flexit.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Flexit.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Flexit.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Flexit.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Flexit.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Flexit.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

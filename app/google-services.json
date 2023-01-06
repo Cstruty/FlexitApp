@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1022501787746",
+    "firebase_url": "https://flexit-365822-default-rtdb.firebaseio.com",
+    "project_id": "flexit-365822",
+    "storage_bucket": "flexit-365822.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022501787746:android:060afc8f8362449d5ed93b",
+        "android_client_info": {
+          "package_name": "com.example.flexit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022501787746-13cu6one7pod3o3qrb4g6c7qrbh6j8kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flexit",
+            "certificate_hash": "50738b8e3fec7bf7f1296e417652bca3112e2b3f"
+          }
+        },
+        {
+          "client_id": "1022501787746-6en7rouf77sddfvsio81rliublbijnjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeSjbbWE7W6x_LDdGnlGSydIbScUjyMwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022501787746-6en7rouf77sddfvsio81rliublbijnjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

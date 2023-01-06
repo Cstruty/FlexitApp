@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.constraintlayout:constraintlayout:2.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ab01cb290d17e3ad6fff7614194db5cb/transformed/constraintlayout-2.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ab01cb290d17e3ad6fff7614194db5cb/transformed/constraintlayout-2.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ab01cb290d17e3ad6fff7614194db5cb/transformed/constraintlayout-2.1.4/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/transforms-3/46a738c9504fcfc4e0fd6a47f21ffd0d/transformed/constraintlayout-2.1.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/transforms-3/46a738c9504fcfc4e0fd6a47f21ffd0d/transformed/constraintlayout-2.1.4/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/transforms-3/46a738c9504fcfc4e0fd6a47f21ffd0d/transformed/constraintlayout-2.1.4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout/2.1.4/27e12209e529970f69bc817f349c247ef238fae7/constraintlayout-2.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

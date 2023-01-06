@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/MusicalLogo"
+        app:srcCompat="@drawable/musiclogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/stop" />
+    <TextView
+        android:id="@+id/NameMusictext"
+        android:textColor="#9C27B0"
+        android:textSize="18sp"
+        android:text="Song "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/Songtext"
+        android:layout_alignStart="@+id/Songtext" />
+
+    <TextView
+        android:id="@+id/Songtext"
+        android:textColor="#429C47"
+        android:textSize="18sp"
+        android:text="Artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignBottom="@+id/MusicalLogo"
+        android:layout_toRightOf="@+id/MusicalLogo"
+        android:layout_toEndOf="@+id/MusicalLogo" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@id/stop"
+        app:srcCompat="@drawable/playlogo"
+        android:layout_width="23dp"
+        android:layout_height="23dp" />
+    <!--        app:srcCompat="@drawable/stoplogo"-->
+    <ImageView
+        android:id="@+id/stop"
+        android:layout_marginTop="15dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+/>
+
+</RelativeLayout>

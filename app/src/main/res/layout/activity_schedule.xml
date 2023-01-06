@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AppText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26A69A"
+    tools:context=".ScheduleActivity">
+
+    <EditText
+        android:id="@+id/Sunday"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="none"
+        android:singleLine="false"
+        android:text="   Sunday"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+    <EditText
+        android:id="@+id/Monday"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="   Monday"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sunday" />
+
+    <EditText
+        android:id="@+id/Tuesday"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="   Tuesday"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Monday" />
+
+    <EditText
+        android:id="@+id/Wednesday"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="Wednesday"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tuesday" />
+
+    <EditText
+        android:id="@+id/Thursday"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="  Thursday"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Wednesday" />
+
+    <EditText
+        android:id="@+id/Friday"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="    Friday"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Thursday" />
+
+    <EditText
+        android:id="@+id/Saturday"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="  Saturday"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Friday" />
+
+    <EditText
+        android:id="@+id/Title"
+        android:layout_width="424dp"
+        android:layout_height="101dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="none"
+        android:textStyle="bold"
+        android:text="            My Weekly Schedule"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SundayBox"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:hint="My Sunday Schedule is..."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Sunday"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+    <EditText
+        android:id="@+id/MondayBox"
+        android:layout_width="311dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:ems="10"
+        android:hint="My Monday Schedule is..."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@id/Sunday"
+        app:layout_constraintTop_toBottomOf="@+id/SundayBox" />
+
+    <EditText
+        android:id="@+id/TuesdayBox"
+        android:layout_width="311dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:ems="10"
+        android:hint="My Tuesday Schedule is..."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Tuesday"
+        app:layout_constraintTop_toBottomOf="@+id/MondayBox" />
+
+    <EditText
+        android:id="@+id/ThursdayBox"
+        android:layout_width="311dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:ems="10"
+        android:hint="My Thursday Schedule is..."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Thursday"
+        app:layout_constraintTop_toBottomOf="@+id/WednesdayBox" />
+
+    <EditText
+        android:id="@+id/FridayBox"
+        android:layout_width="311dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:ems="10"
+        android:hint="My Friday Schedule is..."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Friday"
+        app:layout_constraintTop_toBottomOf="@+id/ThursdayBox" />
+
+    <EditText
+        android:id="@+id/WednesdayBox"
+        android:layout_width="311dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:ems="10"
+        android:hint="My Wednesday Schedule is..."
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/Wednesday"
+        app:layout_constraintTop_toBottomOf="@+id/TuesdayBox" />
+
+    <EditText
+        android:id="@+id/SaturdayBox"
+        android:layout_width="311dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:ems="10"
+        android:hint="My Saturday Schedule is..."
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/Saturday"
+        app:layout_constraintTop_toBottomOf="@+id/FridayBox" />
+
+    <Button
+        android:id="@+id/BtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

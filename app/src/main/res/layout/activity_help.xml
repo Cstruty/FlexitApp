@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelpActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="@drawable/instagradient">
+
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="FlexiT"
+            android:textColor="@android:color/white"
+            android:textSize="40dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:text="Who are we?"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text=
+        "A ragtag group of college students that were required to do this.\nMeet the cast:"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/hamzaLogo"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/hamza"
+                    android:foreground="@drawable/rounded_fg"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hamza"
+                    android:layout_margin="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/higeeLogo"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/higee"
+                    android:foreground="@drawable/rounded_fg"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Refath"
+                    android:layout_margin="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/nicoleLogo"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/nicole"
+                    android:foreground="@drawable/rounded_fg"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nicole"
+                    android:layout_margin="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/cypresLogo"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/cypres"
+                    android:foreground="@drawable/rounded_fg"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cypres"
+                    android:layout_margin="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Motivation"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=
+                "As youthful college students, we often found ourselves indulging our selves in anything we can get our hands - all at the cost of your health. This is where our inspiration for FlexiT came in, we wanted something to help us facilitate a better lifestyle."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Future/Goals"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=
+                "We hope to add more functionality that allow users to connect and socialize. We want people to be able to connect to each other and motivate each other to live a long and healthy life. We also hope to roll out features that will allow users to make easier dieting plans. "/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:background="@drawable/instagradient"
+        android:fontFamily="serif-monospace"
+        android:text="FLEXIT...DONT BREXIT"/>
+
+
+</LinearLayout>

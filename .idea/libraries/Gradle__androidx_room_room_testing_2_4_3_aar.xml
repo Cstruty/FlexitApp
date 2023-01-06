@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.room:room-testing:2.4.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0daafb6f26a3cf115494f668d7eb2f4e/transformed/room-testing-2.4.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0daafb6f26a3cf115494f668d7eb2f4e/transformed/room-testing-2.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0daafb6f26a3cf115494f668d7eb2f4e/transformed/room-testing-2.4.3/res" />
+      <root url="file://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/transforms-3/68d7906b77b304e7050f9b99148a7da2/transformed/room-testing-2.4.3/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/transforms-3/68d7906b77b304e7050f9b99148a7da2/transformed/room-testing-2.4.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/transforms-3/68d7906b77b304e7050f9b99148a7da2/transformed/room-testing-2.4.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../FlexIt/gradle/wrapper/caches/modules-2/files-2.1/androidx.room/room-testing/2.4.3/953bfd30ea4f060c56bd77859dceb9f5577100f8/room-testing-2.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_gravity="center"
+    tools:context=".MainWatch">
+
+
+    <ImageView
+        android:id="@+id/bgcircle"
+        android:layout_width="276dp"
+        android:layout_height="247dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/newlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp" />
+
+    <ImageView
+        android:id="@+id/arrow_view"
+        android:layout_width="358dp"
+        android:layout_height="357dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/icanchor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+     />
+
+    <Chronometer
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bgcircle"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="65sp"
+        app:layout_constraintHorizontal_bias="0.498" />
+
+    <Button
+        android:id="@+id/button_Start"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/greenbutton"
+        android:text="Start Workout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintHorizontal_bias="0.495" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="295dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/button_Start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/redbutton"
+        android:text="Finish Workout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="570dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+
+</RelativeLayout>

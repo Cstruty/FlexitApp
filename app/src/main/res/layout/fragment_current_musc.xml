@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/layout_border">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:rotationY="180"
+        app:srcCompat="@drawable/skip_music" />
+    <TextView
+        android:id="@+id/NameMusictext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/MusicalLogo"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/MusicalLogo"
+        android:layout_toRightOf="@+id/MusicalLogo"
+        android:text="Song"
+        android:textColor="#9C27B0"
+        android:textSize="18sp" />
+    <ImageView
+        android:id="@+id/MusicalLogo"
+        app:srcCompat="@drawable/musiclogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignTop="@+id/foward" />
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@id/foward"
+        app:srcCompat="@drawable/pauselogo" />
+
+    <ImageView
+        android:id="@+id/foward"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="360dp"
+        app:srcCompat="@drawable/skip_music" />
+
+</FrameLayout>
